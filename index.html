@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Calculator</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <h2>JavaScript Calculator</h2>
+    <div class="calc-wrap \">
+      <div class="row screen">
+        <div id="clear">&#215;</div>
+        <div id="value">0</div>
+      </div>
+      <div class="row">
+        <div class="key num" data-num="7">7</div>
+        <div class="key num" data-num="8">8</div>
+        <div class="key num" data-num="9">9</div>
+        <div class="key symbol" data-op="/">&divide;</div>
+      </div>
+      <div class="row">
+        <div class="key num" data-num="4">4</div>
+        <div class="key num" data-num="5">5</div>
+        <div class="key num" data-num="6">6</div>
+        <div class="key symbol" data-op="*">&#215;</div>
+      </div>
+      <div class="row">
+        <div class="key num" data-num="3">3</div>
+        <div class="key num" data-num="2">2</div>
+        <div class="key num" data-num="1">1</div>
+        <div class="key symbol" data-op="-">&minus;</div>
+      </div>
+      <div class="row">
+        <div class="key num" data-num="0">0</div>
+        <div class="key num" id="decimal" data-num=".">&#46;</div>
+        <div class="key symbol" data-op="=">&#61;</div>
+        <div class="key symbol" data-op="+">&plus;</div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
